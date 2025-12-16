@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package format="3">
-  <name>lslidar_driver</name>
+  <name>lslidar_cx_driver</name>
   <version>5.0.9</version>
   <description>ROS2 driver for LSLIDAR sensors</description>
   <maintainer email="jianjiangxie@lslidar.com">lslidar</maintainer>

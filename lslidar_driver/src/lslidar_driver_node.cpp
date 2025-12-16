@@ -37,7 +37,7 @@ int main(int argc, char** argv) {
     options.use_intra_process_comms(true);
     auto node = std::make_shared<rclcpp::Node>("lslidar_driver_node", options);
 
-    LS_PARAM << "************ Lslidar ROS driver version: " << lslidar_driver_VERSION << " ************" << LS_END;
+    LS_PARAM << "************ Lslidar ROS driver version: " << lslidar_cx_driver_VERSION << " ************" << LS_END;
 
     std::string lidar_type;
     node->declare_parameter<std::string>("lidar_type", "CX");
